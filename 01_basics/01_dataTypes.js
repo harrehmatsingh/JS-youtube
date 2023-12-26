@@ -21,3 +21,12 @@ console.log(typeof bool) //boolean
 
 console.log(typeof null) //object ==> special
 console.log(typeof undefined)//undefined
+
+let n = 7 //it's number
+let n1 = new Number(45.8876) //this is object  with number prototype + comes with more functions to use
+
+//important methods on number
+console.log(n1.toFixed(4)) // gives precision to 5 decimal place
+console.log(n1.toPrecision(3)) // precise to 3 total digits ==> gives 45.9 in this case
+
+
